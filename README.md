@@ -34,30 +34,19 @@ crypto_wallet.py
 * from web3 import middleware
 * from web3.gas_strategies.time_based import medium_gas_price_strategy
 
+################################################################################
 
-For fintech_finder.py
-* Generate a new Ethereum account instance by using your mnemonic seed phrase (which you created earlier in the module).
+Generate a new Ethereum account instance by using your mnemonic seed phrase (which you created earlier in the module).
 * Fetch and display the account balance associated with your Ethereum account address.
 * Calculate the total value of an Ethereum transaction, including the gas estimate, that pays a Fintech Finder candidate for their work.
 * Digitally sign a transaction that pays a Fintech Finder candidate, and send this transaction to the Ganache blockchain.
 * Review the transaction hash code associated with the validated blockchain transaction.
 * Once you receive the transaction’s hash code, you will navigate to the Transactions section of Ganache to review the blockchain transaction details. To confirm that you have successfully created the transaction, you will save screenshots to the README.md file of your GitHub repository for this Challenge assignment.
 
-################################################################################
-
-# Imports
-* import streamlit as st
-* from dataclasses import dataclass
-* from typing import Any, List
-* from web3 import Web3
-* w3 = Web3(Web3.HTTPProvider('HTTP://127.0.0.1:7545'))
-
-################################################################################
 
 Sign and Execute a Payment Transaction
 * Fintech Finder customers will select a fintech professional from the application interface’s drop-down menu, input the amount of time for which they’ll hire the worker. The application calculates the amount that the worker will be paid in ether. 
 
-##########################################
 
 Inspect the Transaction
 * Send a test transaction by using the application’s web interface, and then look up the resulting transaction hash in Ganache.
