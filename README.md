@@ -52,7 +52,7 @@ Inspect the Transaction
 * Send a test transaction by using the application’s web interface, and then look up the resulting transaction hash in Ganache.
 
 * On the resulting webpage, select a candidate that you would like to hire from the appropriate drop-down menu. Enter the number of hours to hire them for. Click the Send Transaction button to sign and send the transaction with your Ethereum account information. If the transaction is successfully communicated to Ganache, validated, and added to a block, a resulting transaction hash code will be written to the Streamlit application sidebar.
-* !(https://github.com/emorytk/FinTech-Class_C19_emorytk/blob/main/Streamlit%20Screen%20Shot%201.png) 
+* https://github.com/emorytk/FinTech-Class_C19_emorytk/blob/main/Streamlit%20Screen%20Shot%201.png 
 * https://github.com/emorytk/FinTech-Class_C19_emorytk/blob/main/Streamlit%20Screen%20Shot%203.png
 
 Navigate to the Ganache accounts tab and locate your account (index 0). 
