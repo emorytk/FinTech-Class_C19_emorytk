@@ -66,8 +66,10 @@ Inspect the Transaction
 
 Navigate to the Ganache accounts tab and locate your account (index 0). 
 * Take a screenshot of the address, balance, and transaction (TX) count. Save this screenshot to the README.md file of your GitHub repository for this Challenge assignment.
+https://github.com/emorytk/FinTech-Class_C19_emorytk/blob/main/Streamlit%20Screen%20Shot%201.png 
+https://github.com/emorytk/FinTech-Class_C19_emorytk/blob/main/Streamlit%20Screen%20Shot%202.png
 
 Navigate to the Ganache transactions tab and locate the transaction. 
 * Click the transaction and take a screenshot of it. Save this screenshot to the README.md file of your GitHub repository for this Challenge assignment.
-
-
+https://github.com/emorytk/FinTech-Class_C19_emorytk/blob/main/Streamlit%20Screen%20Shot%203.png
+https://github.com/emorytk/FinTech-Class_C19_emorytk/blob/main/Streamlit%20Screen%20Shot%204.png
