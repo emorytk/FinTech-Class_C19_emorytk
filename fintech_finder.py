@@ -83,7 +83,7 @@ w3 = Web3(Web3.HTTPProvider('HTTP://127.0.0.1:7545'))
 # @TODO:
 # From `crypto_wallet.py import the functions generate_account, get_balance,
 #  and send_transaction
-from crypto_wallet import w3, generate_account, get_balance, send_transaction
+from crypto_wallet import generate_account, get_balance, send_transaction
 
 ################################################################################
 # Fintech Finder Candidate Information
@@ -133,7 +133,7 @@ st.sidebar.markdown("## Client Account Address and Ethernet Balance in Ether")
 
 # @TODO:
 #  Call the `generate_account` function and save it as the variable `account`
-account = generate_account(w3) 
+account = generate_account() 
 
 ##########################################
 
@@ -141,7 +141,8 @@ account = generate_account(w3)
 st.sidebar.write(account.address)
 
 ##########################################
-# Step 1 - Part 5:
+# Step 1 - Part 5:y
+
 # Define a new `st.sidebar.write` function that will display the balance of the
 # customer’s account. Inside this function, call the `get_balance` function and
 #  pass it your Ethereum `account.address`.
@@ -149,8 +150,8 @@ st.sidebar.write(account.address)
 # @TODO
 # Call `get_balance` function and pass it your account address
 # Write the returned ether balance to the sidebar
-ether_balance = get_balance(w3, account.address)
-st.sidebar.write(ether_balance)
+st.sidebar.write(get_balance(w3, account.address))
+#st.sidebar.write(ether_balance)
 
 ##########################################
 
@@ -182,7 +183,7 @@ st.sidebar.write(candidate_address)
 
 # Write the Fintech Finder candidate's name to the sidebar
 
-st.sidebar.markdown("## Total Wage in Ether")
+st.sidebar.write("## Candidate Name")
 
 ################################################################################
 # Step 2: Sign and Execute a Payment Transaction
@@ -285,7 +286,7 @@ if st.sidebar.button("Send Transaction"):
 
 # The function that starts the Streamlit application
 # Writes FinTech Finder candidates to the Streamlit page
-get_people()
+get_people(w3)
 
 ################################################################################
 # Step 3: Inspect the Transaction
