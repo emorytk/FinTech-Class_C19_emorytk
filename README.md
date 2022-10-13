@@ -65,3 +65,4 @@ Navigate to the Ganache transactions tab and locate the transaction.
 * https://github.com/emorytk/FinTech-Class_C19_emorytk/blob/main/Streamlit%20Screen%20Shot%202.png
 * https://github.com/emorytk/FinTech-Class_C19_emorytk/blob/main/Streamlit%20Screen%20Shot%204.png
 
+
